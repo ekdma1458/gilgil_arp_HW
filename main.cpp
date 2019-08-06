@@ -144,6 +144,6 @@ int main(int argc, char* argv[]) {
         }
     }
     pcap_close(handle);
-
+    free(arp_header);
     return 0;
 }
